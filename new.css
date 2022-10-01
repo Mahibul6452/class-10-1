@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header state */
+header {
+    padding: 10px 0;
+    background-image: url(image/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(40, 159, 189, 0.562);
+
+
+}
+
+.con {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+
+}
+
+.logo h2 {
+    color: antiquewhite;
+    font-size: 25px;
+}
+
+nav {
+    width: 80%;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 30px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+
+}
+
+.con h2 {
+    font-size: 35px;
+    line-height: 30px;
+
+}
+
+.con h2 span {
+    font-size: 22px;
+}
+
+/*new tav for banner*/
+
+.banner {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.banner h3 {
+    font-style: italic;
+    font-size: 30px;
+    margin: 50px 0 25px 0;
+    padding: 10px 0 0 0;
+    color: white;
+}
+
+.banner span {
+    height: 5px;
+    width: 100px;
+    background-color: red;
+    display: block;
+    margin: 10px auto;
+}
+
+
+.banner h1 {
+    font-size: 50px;
+    padding: 10px 0 0 0;
+    color: white;
+
+
+}
+
+.banner button {
+    background-color: tomato;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+
+}
+
+/*new tav for image 2*/
+.upcoming {
+    display: flex;
+
+}
+
+.upcoming h2 {
+    font-size: 22px;
+
+}
+
+.upcoming span {
+    height: 5px;
+    width: 100px;
+    background-color: tomato;
+    display: block;
+    margin: 10px auto;
+}
+
+/*new tav for two image */
+.event-section {
+
+    text-align: center;
+
+}
+
+.event-section h3 {
+    font-size: 25px;
+
+
+}
+
+.event-section span {
+    height: 5px;
+    width: 100px;
+    background-color: tomato;
+    display: block;
+    margin: 20px auto;
+
+}
+
+.col {
+
+    width: 50%;
+    float: left;
+    margin: auto;
+}
+
+.col-img {
+    margin-top: 40px;
+}
+
+.col-img img {
+    margin: 10px 0 0 0;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 6px 8px 0px 1px gray;
+}
+
+.col-img h4 {
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+
+.col-img p {
+    font-size: 17px;
+    padding: 5px;
+}
+
+.col-img a {
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+
+/* new tab for explore image  */
+section {
+    overflow: hidden;
+}
+
+.Explore {
+    padding: 10px 0;
+    background-image: url(image/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(40, 159, 189, 0.562);
+}
+
+
+.heding {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.heding h1 {
+    color: white;
+    font-size: 40px;
+    padding: 40px 0 0 0;
+}
+
+.heding span {
+    height: 5px;
+    width: 100px;
+    background-color: tomato;
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 40px;
+
+}
+
+.heding p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 40px 0 0 0;
+}
+
+
+.heding a {
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.footer {
+    padding: 100px 0;
+    background-color: rgba(0, 228, 87, 0.692);
+    text-align: center;
+    font-size: 30px;
+
+}
